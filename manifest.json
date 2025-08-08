@@ -1,0 +1,22 @@
+{
+  "visualization": "ghana-map.js",
+  "components": [
+    "controls"
+  ],
+  "style": "style.css",
+  "options": {
+    "geoKey": {
+      "label": "Region Key",
+      "type": "DIMENSION"
+    },
+    "metric": {
+      "label": "Value",
+      "type": "METRIC"
+    }
+  },
+  "data": {
+    "sampling": {
+      "rowLimit": 500
+    }
+  }
+}
